@@ -5,10 +5,10 @@
 </div>
 </template>
 <script>
-import son from './Son'//  引入子组件
+import son from './Son'//引入子组件
 export default {
     name: 'HelloWorld',
-    data() {
+    data(){
         return {
             msg: '父组件'
         }
